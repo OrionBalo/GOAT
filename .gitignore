@@ -1,0 +1,14 @@
+# Local credentials -- never commit these
+.env
+
+# Local tracking state (CI keeps its own copy in the Actions cache)
+.state/
+
+# Readable copy of the watchlist, since GitHub secrets cannot be read back
+watchlist.local.txt
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
